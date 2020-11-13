@@ -1,49 +1,11 @@
 .body {
-  color: navy;
+  color: black;
   background-color: wheat;
   height: 100%;
+  text-align: center;
+
 }
-.devicon {
-  font-size: 5rem;
-  background-color: #3a1805;
-  color: lightseagreen;
-}
-@keyframes rainbow {
-  0% {
-    color: lightseagreen;
-  }
-  15% {
-    color: tomato;
-  }
-  30% {
-    color: magenta;
-  }
-  45% { 
-    color: deepskyblue;
-  }
-  60% {
-    color: crimson;
-  }
-  75% {
-    color: chartreuse;
-  }
-  90% {
-    color: fuchsia;
-  }
-  100% {
-    color: lightseagreen;
-  }
-}
-* {
-  font-family: "Times New Roman", Times, serif;
-}
-.devicon:hover {
-  font-size: 5rem;
-  animation-name: rainbow;
-  animation-iteration-count: infinite;
-  animation-duration: 5s;
-  animation-timing-function: linear;
-}
+
 .App {
   color: #eee1b3;
   text-align: center;
@@ -54,30 +16,36 @@
   text-align: center;
 }
 .header {
-  border-bottom-right-radius: 10px;
+  border-bottom-right-radius: 20px;
 }
 .btn {
-  background-color: #3a1805;
+  background-color: #593018;
   color: wheat;
 }
 .btn:hover {
-  color: white;
+  color: wheat;
   font-weight: bold;
+  
 }
 .active {
   background-color: wheat;
-  color: #3a1805;
+  color: #593018;
   border-bottom: none;
+  
 }
 .active:focus {
   border-bottom: none;
   box-shadow: none;
+  text-align: center;
+
 }
 .active:hover {
   color: black;
 }
 a {
   color: wheat;
+  text-align: center;
+
 }
 a:hover {
   color: wheat;

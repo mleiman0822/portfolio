@@ -1,24 +1,19 @@
 import React from "react";
+import {Button} from "react-bootstrap";
 const Projects = () => {
   return (
     <div className="container">
       <div className="d-flex row justify-content-center">
-        <div className="col-12 h3">Current Projects</div>
-        <div className="col-12 col-xl-10 App rounded my-2 mx-2 p-2">
-          <a >
-            <div className="btn col-12">??</div>
-          </a>
- Work in progress
-        </div>
+       
         <div className="col-12 my-2 mx-2">
-          <h3>Projects 2020</h3>
+          <h3>Created Projects</h3>
         </div>
         <div className="col-12 col-lg-5 App rounded my-2 mx-2 p-2">
           <a href="https://github.com/mleiman0822/Solo-Project-Rinx">
             <div className="btn col-12">RINX</div>
           </a>
   Final Solo Project for EDA. This is something that im proud of as it combines my love of hockey with technology. This is a full featured CRUD app that allows users to see ice rinks around their city,
-  with the ability to add new rinks, with admin access, add rinks to your favorites, and check the status of a rink. This app uses A Weather and a Map API.
+  with the ability to add new rinks(with admin access), add rinks to your favorites, and check the status of a rink. This app uses A Weather and a Map API.
         </div>
         <div className="col-12 col-lg-5 App rounded my-2 mx-2 p-2">
           <div>
@@ -39,18 +34,21 @@ A Redux Application that allows users to change speed using a controller. This i
         <div className="col-12 col-xl-5 App rounded my-2 mx-2 p-2">
           <div>
             <a href="https://github.com/mleiman0822/react-gallery">
-              <div className="btn col-12">Calculator App</div>
+              <div className="btn col-12">React-Gallery</div>
             </a>
           </div>
 Social Media type application that was made with React. Contains the ability to like photos. Uses Bootstrap. 
         </div>{" "}
-        <div className="col-12 col-xl-10 App rounded p-2">
-          <a href="https://github.com/mleiman0822">
-            <div className="btn col-12 h3">Check out some more of my projects on GitHub</div>
-          </a>
-        </div>
+
       </div>
+      <div>
+        <Button variant="dark"href="https://github.com/mleiman0822" >
+            Check out some more of my projects on GitHub
+        </Button>
+        </div>
+      
     </div>
+    
   );
 };
 export default Projects;
