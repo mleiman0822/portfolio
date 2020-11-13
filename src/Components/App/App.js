@@ -22,7 +22,6 @@ class App extends React.Component {
           <div className="row ">
             <div className="App col-12 ">
               <div className="header">
-              <div className="h1">Matthew T Leiman</div>
 
                 <img
                   src={headshot}
@@ -30,6 +29,8 @@ class App extends React.Component {
                   width="175em"
                   className="my-1"
                 />
+                              <div className="h1">Matthew T Leiman</div>
+
               </div>
               <div className="d-flex justify-content-around">
                 <NavLink to="/projects" className="col-3 btn">
@@ -38,9 +39,7 @@ class App extends React.Component {
                 <NavLink to="/resume" className="col-3 btn">
                   Resume
                 </NavLink>
-                <NavLink to="/tech" className="col-3 btn">
-                  Tech Known
-                </NavLink>
+
                 <NavLink to="/bio" className="col-3 btn">
                   Biography
                 </NavLink>
