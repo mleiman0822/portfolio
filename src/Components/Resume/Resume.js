@@ -1,5 +1,5 @@
 import React from "react";
-import Pdf from "./files/Profile (1).pdf";
+import Pdf from "./files/Resume.js.pdf";
 import {Button} from "react-bootstrap";
 export default function Resume() {
   return (

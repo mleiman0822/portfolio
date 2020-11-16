@@ -10,17 +10,22 @@
   color: #eee1b3;
   text-align: center;
   background-color:black;
+  
 }
 .Head {
   color: black;
   text-align: center;
+
 }
 .header {
   border-bottom-right-radius: 20px;
+
 }
 .btn {
   background-color: #593018;
   color: wheat;
+  border-radius: 5px;
+
 }
 .btn:hover {
   color: wheat;
@@ -39,15 +44,6 @@
   text-align: center;
 
 }
-.active:hover {
-  color: black;
-}
-a {
-  color: wheat;
-  text-align: center;
 
-}
-a:hover {
-  color: wheat;
-  font-weight: bold;
-}
+
+
