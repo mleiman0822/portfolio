@@ -36,7 +36,8 @@ const Projects = () => {
           CRUD app that allows users to see ice rinks around their city, with
           the ability to add new rinks(with admin access), add rinks to your
           favorites, and check the status of a rink. This app uses A WeatherBox
-          and a MapBox API.
+          and a MapBox API. Use username: yoshi and password: yoshi to use admin
+          views.
           <div>
             <Button
               className="gitHubButton"
@@ -95,6 +96,13 @@ const Projects = () => {
             >
               {" "}
               GitHub
+            </Button>
+            <Button
+              className="gitHubButton"
+              href="https://fierce-atoll-41432.herokuapp.com/#/"
+            >
+              {" "}
+              Heroku
             </Button>
           </div>
         </div>{" "}
