@@ -1,6 +1,6 @@
 import React from "react";
-import Pdf from "./files/mlResume2020.pdf";
 import { Button } from "react-bootstrap";
+import Pdf from "./files/mlResume2020.pdf";
 export default function Resume() {
   return (
     <div>
