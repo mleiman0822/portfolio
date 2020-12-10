@@ -25,6 +25,14 @@ const Projects = () => {
               {" "}
               GitHub
             </Button>
+            {(" ", " ", " ")}
+            <Button
+              className="gitHubButton"
+              href="https://nameless-falls-97077.herokuapp.com/#/rental_requests"
+            >
+              {" "}
+              Heroku
+            </Button>
           </div>
         </div>
         <div className="col-12 col-lg-5 App rounded my-2 mx-2 p-2">
