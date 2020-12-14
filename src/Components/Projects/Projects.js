@@ -17,6 +17,7 @@ const Projects = () => {
           mission to provide oral health to those who are unable to get it.
           <br />
           <br />
+          <br />
           <div>
             <Button
               className="gitHubButton"
